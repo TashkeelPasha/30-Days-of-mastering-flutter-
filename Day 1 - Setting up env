@@ -1,27 +1,26 @@
-## 🛠️ Setup Instructions
+Install Dart and Flutter SDK:
 
-### Install Dart and Flutter SDK
-- **macOS or Linux:**
-  - Download the Flutter SDK from the [official website](https://flutter.dev/docs/get-started/install).
-  - Extract the compressed files.
-  - Add the Flutter tool to your system PATH.
+First head to official site : https://docs.flutter.dev/get-started/install
 
-- **Windows:**
-  - Download the Flutter SDK from the [official website](https://flutter.dev/docs/get-started/install).
-  - Run the installer.
-  - Add the Flutter tool to your system PATH.
+For macOS or Linux:
+Get Flutter from the official website.
+Extract the files.
+Add Flutter to your system's PATH.
+for mac : https://www.youtube.com/watch?v=VPoqbBXzGtA
 
-### Configure Your IDE or Code Editor
-- **Android Studio or IntelliJ IDEA:**
-  - Install the Flutter and Dart plugins from the marketplace.
-  
-- **Visual Studio Code:**
-  - Install the Flutter and Dart extensions from the marketplace.
-  
-- **Other IDEs or Code Editors:**
-  - Check the [official Flutter documentation](https://flutter.dev/docs/get-started/editor) for setup instructions.
+For Windows:
+Download Flutter from the official website. 
+Run the installer.
+Add Flutter to your system's PATH.
+for windows : https://youtube.com/watch?v=9WT9s7jkGEQ
 
-### Verify Installation
-Run the following command to check your Flutter installation status and identify any missing dependencies:
-```bash
-flutter doctor
+Set up Your IDE or Code Editor:
+
+For Visual Studio Code:
+Install the Flutter and Dart extensions from the marketplace.
+
+For other IDEs or editors:
+Follow instructions on the official Flutter documentation.
+
+Verify Installation:
+Run flutter doctor in your terminal to check your Flutter installation status and identify any missing dependencies.
