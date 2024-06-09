@@ -2,6 +2,9 @@
 
 Welcome to my 30-day journey to master Flutter and Dart! This repository will document my daily progress as I explore and learn these amazing technologies.
 
+![Pink Black Photocentric Neon Tech Talk Podcast Instagram Post](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/fbc88e9d-b13c-42cb-aa43-d92bb4561ba0)
+
+
 ## 📅 Schedule
 
 ### Days 1-10: Dart Fundamentals
