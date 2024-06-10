@@ -19,4 +19,14 @@ Here's how to write a simple "Hello World" program in Dart:
 void main() {
   print('Hello, World!');
 }
+```
+Breakdown of the Code
+main() function:
 
+Every Dart application starts with the main function. It's the entry point of the application.
+Syntax: void main() { }
+print() function:
+
+The print function is used to output text to the console.
+Syntax: print('text');
+In this example, the main function calls print, passing the string 'Hello, World!'. When you run this program, you'll see Hello, World! printed in the console.
