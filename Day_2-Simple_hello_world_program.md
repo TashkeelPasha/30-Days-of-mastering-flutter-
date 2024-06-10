@@ -1,4 +1,4 @@
-# 🚀 Day 1: Understanding Dart Syntax and Structure with a "Hello World" Program 🚀
+# 🚀 Day 2: Understanding Dart Syntax and Structure with a "Hello World" Program 🚀
 
 As I kick off my #30DaysOfFlutter journey, the first step is to get familiar with Dart, the powerful language behind Flutter. Today, I'll be diving into the syntax and structure of Dart, and what better way to start than with a classic "Hello World" program?
 
