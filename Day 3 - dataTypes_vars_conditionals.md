@@ -2,6 +2,9 @@
 
 Today on my #30DaysOfFlutter journey, we’re delving into the core concepts of Dart programming: variables, data types, operators, and expressions. These are the fundamental building blocks of any programming language. By the end of today, you’ll have a solid grasp of how to declare and initialize variables, use string interpolation, and work with operators and conditional expressions.
 
+![day 3](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/0f543a66-d03d-43e2-9cdc-a77b5b3d9685)
+
+
 ## Project - Simple Calculator
 
 For today’s project, we’ll create a simple calculator that can perform basic arithmetic operations (addition, subtraction, multiplication, division) on two numbers.
@@ -133,9 +136,15 @@ Logical Operators:
 The code checks if it is both raining and cold, either raining or cold, or neither, and prints a corresponding message.
 Tips for Today
 Review the basics of variables and data types in Dart. Check out the Dart documentation for more details.
+https://dart.dev/guides
+
+
 Experiment with declaring and initializing variables of different data types.
 Practice using string interpolation to print messages with variables.
 Explore arithmetic and comparison operators to perform various calculations.
 Write conditional statements using if/else and experiment with logical operators (&&, ||, !).
 Feel free to share your progress, tips, and questions in the comments. Let’s continue to learn and grow together! 💪
 
+
+
+#Flutter #Dart #FlutterDevelopment #MobileAppDevelopment #AppDevelopment #Programming #Coding #LearnToCode #TechLearning #DevCommunity #SoftwareDevelopment #30DaysOfCode #DeveloperJourney #CodeNewbie #TechEducation #ProgrammingTutorial #FlutterTutorial #DartProgramming #BuildApps #CodeLearning
