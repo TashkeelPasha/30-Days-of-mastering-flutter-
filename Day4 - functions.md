@@ -16,7 +16,7 @@ void main() {
 }
 
 void printName() {
-  print("My name is John Doe.");
+  print("My name is Pasha.");
 }
 ```
 2. Function with Parameters and No Return Type
