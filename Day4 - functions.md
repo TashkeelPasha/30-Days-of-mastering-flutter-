@@ -3,6 +3,10 @@
 Welcome to Day 4 of my #30DaysOfFlutter journey! Today, we're diving into the world of functions in Dart. Functions are essential building blocks in programming, allowing us to write reusable code for specific tasks. By the end of today, you'll understand different types of functions, how to define and call them, and the concept of optional parameters.
 
 
+![day 4](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/2860dcf1-ba6a-4a2e-b50a-e8dbf38cc89f)
+
+
+
 
 ## 📝 Key Concepts
 
