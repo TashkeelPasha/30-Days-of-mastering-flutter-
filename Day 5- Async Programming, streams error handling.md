@@ -208,6 +208,8 @@ void main() {
 }
 ```
 
+For deep understanding i would suggest to check flutter's official channel: https://youtu.be/OTS-ap9_aXc?si=X4vtq2OzNPMdXoGI
+
 Conclusion
 Streams in Dart are powerful tools for handling asynchronous data flows. They allow us to process data as it becomes available, rather than waiting for it to be fully loaded before processing. Streams are used in scenarios where data is continuously updated or where we want to handle events as they occur.
 
