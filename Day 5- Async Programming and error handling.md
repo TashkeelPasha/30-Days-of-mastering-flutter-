@@ -6,7 +6,7 @@ Welcome to Day 5 of the #30DaysOfFlutter challenge. Today, we'll explore asynchr
 
 
 
-#Key Concepts
+key Concepts
 
 ### Understanding Futures
 A `Future` represents a potential value or error that will be available at some time in the future. It's a placeholder for a value that hasn't been computed yet.
@@ -41,7 +41,7 @@ Future<int> computeSum(int a, int b) async {
 }
 ```
 
-##Handling Errors in Asynchronous Code
+Handling Errors in Asynchronous Code
 
 Handling errors in asynchronous functions is crucial for creating robust applications. Use try, catch, and finally blocks to handle potential errors.
 
@@ -90,10 +90,10 @@ Future<String> fetchData() async {
 }
 ```
 
-##Stream
+Stream
 A stream is a sequence of asynchronous events representing multiple values that will arrive in the future. The Stream class deals with sequences of events instead of single events. A stream can have one or more listeners, and all listeners will receive the same value.
 
-##Creating Streams in Dart
+Creating Streams in Dart
 You can create a stream using the Stream class. Here’s a function that returns a Stream<String>:
 
 ```dart
@@ -115,7 +115,7 @@ Stream<String> getUserName() {
   return Stream.fromIterable(['Mark', 'John', 'Smith']);
 }
 ```
-##Using Streams in Dart
+Using Streams in Dart
 
 You can use a stream in Dart by using the await for loop:
 
@@ -129,7 +129,7 @@ void main() async {
 ```
 
 
-##Types of Streams
+Types of Streams
 Single Subscription Stream: Default stream type, allows only one listener.
 Broadcast Stream: Allows multiple listeners.
 Example: Single Subscription Stream
