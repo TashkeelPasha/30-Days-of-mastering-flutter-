@@ -1,4 +1,4 @@
-# Day 5: Mastering Asynchronous Programming and Streams in Dart
+# Day 5: Mastering Asynchronous Programming, Streams and Error Handling in Dart
 
 Welcome to Day 5 of the #30DaysOfFlutter challenge. Today, we'll explore asynchronous programming and streams in Dart, essential concepts for building responsive applications.
 
@@ -172,8 +172,8 @@ async*: Used with streams, works like async in futures.
 yield: Emits values from a generator.
 yield*: Calls its iterable or stream function recursively.
 Example: Using async*
-dart
-Copy code
+```dart
+
 Stream<int> countForOneMinute() async* {
   for (int i = 1; i <= 5; i++) {
     await Future.delayed(const Duration(seconds: 1));
@@ -186,9 +186,10 @@ void main() async {
     print(i);
   }
 }
+```
 Example: Using yield*
-dart
-Copy code
+```dart
+
 Stream<int> str(int n) async* {
   if (n > 0) {
     await Future.delayed(Duration(seconds: 2));
@@ -199,7 +200,10 @@ Stream<int> str(int n) async* {
 
 void main() {
   str(10).forEach(print);
+
 }
+```
+
 Conclusion
 Streams in Dart are powerful tools for handling asynchronous data flows. They allow us to process data as it becomes available, rather than waiting for it to be fully loaded before processing. Streams are used in scenarios where data is continuously updated or where we want to handle events as they occur.
 
