@@ -2,6 +2,10 @@
 
 Welcome to Day 5 of the #30DaysOfFlutter challenge. Today, we'll explore asynchronous programming and streams in Dart, essential concepts for building responsive applications.
 
+![day 5](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/9af0a6ff-3687-4837-8f07-64aad00bc04b)
+
+
+
 ## Key Concepts
 
 ### Understanding Futures
