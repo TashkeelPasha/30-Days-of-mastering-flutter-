@@ -4,6 +4,11 @@
 
 In Dart, a class is a blueprint for creating objects. It defines a data structure that contains fields (variables) and methods (functions) to operate on the data. Classes help organize and structure your code in a modular and reusable way.
 
+![day 6](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/d14a5833-a14e-42ec-a7cb-cc100f2afce0)
+
+
+
+
 ### Syntax for Declaring a Class
 
 Here’s a basic structure of a Dart class:
