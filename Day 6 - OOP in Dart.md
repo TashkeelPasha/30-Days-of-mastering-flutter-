@@ -182,9 +182,9 @@ Title: To Kill a Mockingbird, Author: Harper Lee, Year: null
 Example Project 2: Vehicle Management System
 For this project, we will create a system to manage vehicles. We’ll define classes for Vehicle, Car, and Motorcycle, and demonstrate inheritance and method overriding.
 
-Defining Classes
-dart
-Copy code
+
+```dart
+
 class Vehicle {
   String make;
   String model;
@@ -226,9 +226,7 @@ class Motorcycle extends Vehicle {
     print('Has Sidecar: $hasSidecar');
   }
 }
-Using the Classes
-dart
-Copy code
+
 void main() {
   // Creating a car
   Car car = Car('Toyota', 'Corolla', 2020, 4);
@@ -240,14 +238,20 @@ void main() {
   car.displayInfo();
   motorcycle.displayInfo();
 }
+```
 Output
-yaml
+```yaml
 Copy code
 Make: Toyota, Model: Corolla, Year: 2020
 Number of Doors: 4
 Make: Harley-Davidson, Model: Street 750, Year: 2019
 Has Sidecar: false
+```
 Conclusion
 By the end of this day, you should have a good understanding of how to create classes and objects in Dart, and how to use constructors to initialize them. You should also be familiar with the different types of constructors and how to implement them in your programs.
 
 Feel free to experiment with the examples provided and try creating your own classes and objects to solidify your understanding of Object-Oriented Programming in Dart.
+
+
+
+#DartLang #Programming #OOP #ObjectOrientedProgramming #DartProgramming #SoftwareDevelopment #Coding #TechLearning #LearningToCode #Developer #TechEducation #DartTutorial #CodeNewbie #ProgrammingTips #TechCommunity #SoftwareEngineering
