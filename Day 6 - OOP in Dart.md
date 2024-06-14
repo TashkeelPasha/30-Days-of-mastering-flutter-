@@ -252,6 +252,74 @@ Number of Doors: 4
 Make: Harley-Davidson, Model: Street 750, Year: 2019
 Has Sidecar: false
 ```
+Example Program 3: Article Data Source
+This example demonstrates how to create an abstract class and implement it with concrete classes.
+
+
+```dart
+
+abstract class ArticleDataSource {
+  void getArticle(String id);
+  void deleteArticle(String id);
+}
+
+class ArticleLocalDataSource implements ArticleDataSource {
+  // Factory constructor
+  factory ArticleLocalDataSource() => ArticleLocalDataSource._internal();
+
+  ArticleLocalDataSource._internal();
+
+  @override
+  void getArticle(String id) {
+    print('Get Local $id');
+  }
+
+  @override
+  void deleteArticle(String id) {
+    print('Delete Local $id');
+  }
+}
+
+class ArticleAPIDataSource implements ArticleDataSource {
+  // Factory constructor
+  factory ArticleAPIDataSource() => ArticleAPIDataSource._internal();
+
+  ArticleAPIDataSource._internal();
+
+  @override
+  void getArticle(String id) {
+    print('Get API $id');
+  }
+
+  @override
+  void deleteArticle(String id) {
+    print('Delete API $id');
+  }
+}
+
+void main() {
+  // Using ArticleLocalDataSource
+  ArticleLocalDataSource localDataSource = ArticleLocalDataSource();
+  localDataSource.getArticle('dart-today-and-tomorrow');
+  localDataSource.deleteArticle('dart-today-and-tomorrow');
+
+  // Using ArticleAPIDataSource
+  ArticleAPIDataSource apiDataSource = ArticleAPIDataSource();
+  apiDataSource.getArticle('dart-today-and-tomorrow');
+  apiDataSource.deleteArticle('dart-today-and-tomorrow');
+}
+
+```
+
+```yaml
+
+Get Local dart-today-and-tomorrow
+Delete Local dart-today-and-tomorrow
+Get API dart-today-and-tomorrow
+Delete API dart-today-and-tomorrow
+```
+
+
 Conclusion
 By the end of this day, you should have a good understanding of how to create classes and objects in Dart, and how to use constructors to initialize them. You should also be familiar with the different types of constructors and how to implement them in your programs.
 
