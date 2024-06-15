@@ -5,6 +5,10 @@
 Today, we will explore advanced Object-Oriented Programming (OOP) concepts in Dart by building a Library Management System. This project will incorporate various OOP principles such as inheritance, encapsulation, polymorphism, abstract classes, interfaces, mixins, static members, and getters/setters.
 By the end of this day, you should have a solid understanding of how to create classes and objects in Dart, use constructors, and apply various OOP concepts. These skills are fundamental for developing robust applications in Flutter.
 
+![day 7](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/20c57466-ac50-460c-b4c1-921782757b8a)
+
+
+
 ---
 
 ## 1. Inheritance
