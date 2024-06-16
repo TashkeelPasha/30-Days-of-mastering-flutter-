@@ -4,6 +4,10 @@
 
 Dependency Injection (DI) is like a magical way of helping different parts of your code work together without being tightly connected. Imagine you have a toy car that needs batteries to run. Instead of building the batteries inside the toy car, you have a way to put batteries in when you need them. This way, you can change the batteries easily without changing the car itself. DI works similarly in your code. It allows you to inject (or provide) the necessary parts (dependencies) into your code when needed.
 
+
+![Day 8](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/9a6df077-1776-4333-997d-8babd3732105)
+
+
 ## Why Use Dependency Injection?
 
 - **Flexibility:** Makes it easy to swap parts without changing the whole system.
