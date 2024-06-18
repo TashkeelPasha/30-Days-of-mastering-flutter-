@@ -4,6 +4,10 @@
 
 Networking in Dart involves making HTTP requests to web APIs to retrieve or send data. The `http` package is an official and popular package in Dart that makes it easy to perform HTTP requests.
 
+![day 9](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/53551b6b-0390-40a5-93aa-5f8ea40c58f6)
+
+
+
 ## Project - Movie Searcher
 
 Today, we'll create a Dart console program that uses the OMDB movie API to provide the following functionalities:
