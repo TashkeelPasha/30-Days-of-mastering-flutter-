@@ -122,7 +122,7 @@ Container
 ```
 Multiple Branches (children):
 ```mathematica
-Copy code
+
 Column
   ├── Text
   ├── Text
