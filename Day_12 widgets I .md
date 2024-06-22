@@ -4,6 +4,10 @@
 
 In Flutter, a stateless widget is a widget that does not require mutable state. Stateless widgets are immutable, meaning their properties can't change—they are final. They are used when the UI you are building does not change dynamically.
 
+![day 12](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/8ca44610-386d-444d-8576-6dd22a5b9ffd)
+
+
+
 ## Example of Stateless Widget
 
 A common use of a stateless widget is to display text or static content.
