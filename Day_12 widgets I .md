@@ -14,6 +14,8 @@ A common use of a stateless widget is to display text or static content.
 
 ### Basic Example
 
+Open lib/main.dart and Replace the Code:
+
 ```dart
 import 'package:flutter/material.dart';
 
@@ -36,6 +38,12 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+```
+Run the App:
+
+```bash
+
+flutter run
 ```
 Common Stateless Widgets
 1. Text
