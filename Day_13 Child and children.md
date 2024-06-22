@@ -16,6 +16,8 @@ The `child` property is used to hold a single widget. It's typically used when y
 
 In this example, a `Text` widget is nested inside a `Container` widget using the `child` property.
 
+Open lib/main.dart and Replace the Code:
+
 ```dart
 import 'package:flutter/material.dart';
 
@@ -45,6 +47,13 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+```
+
+Run the App:
+
+```bash
+
+flutter run
 ```
 Explanation:
 The Container widget has a child property.
