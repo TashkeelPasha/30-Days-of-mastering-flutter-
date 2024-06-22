@@ -76,6 +76,4 @@ Visit the official Flutter documentation for detailed installation instructions:
 3. **Resolve Issues:**
    - If `flutter doctor` identifies any issues, follow the provided instructions to resolve them.
 
-To check the code, make sure to save your changes in `lib/main.dart`.
-
 #Dart #Flutter #Installation #Setup #DevelopmentEnvironment #MobileDevelopment #TechJourney #Learning #Coding
