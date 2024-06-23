@@ -162,6 +162,10 @@ Rows and Columns
 What are Rows and Columns?
 Rows and Columns are two of the most commonly used widgets in Flutter for creating layouts. The Row widget arranges its children in a horizontal direction, while the Column widget arranges its children in a vertical direction.
 
+![both](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/8f0bdf05-0a23-4734-9726-93553f8c1d6b)
+
+
+
 Example of a Row
 ```dart
 
@@ -174,6 +178,7 @@ Row(
   ],
 )
 ```
+![rows](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/e24951ab-a43d-42ba-9f4a-9adb9ae79e9f)
 
 
 Example of a Column
@@ -188,7 +193,8 @@ Column(
   ],
 )
 ```
-Visual Example of Column
+![column](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/dfcaf687-79c0-48a0-b451-bdd7ab2d33a4)
+
 
 Combining Rows and Columns
 You can nest Rows inside Columns and vice versa to create complex layouts.
