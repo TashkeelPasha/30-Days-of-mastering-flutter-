@@ -4,7 +4,7 @@
 
 In Flutter, `child` and `children` are properties used in widgets to define the hierarchical structure of the user interface. These properties help in building complex UIs by allowing widgets to nest other widgets inside them.
 
-![day 13](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/169374f2-beaf-4a11-960f-1e11750eae2f)
+![Uploading day 13.png…]()
 
 
 
