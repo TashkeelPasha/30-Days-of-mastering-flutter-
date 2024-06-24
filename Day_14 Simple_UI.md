@@ -6,6 +6,13 @@ Today, we will explore some fundamental Flutter widgets such as `Container`, `Te
 
 By the end of this day, you should have a basic understanding of how to use these widgets to create a custom layout.
 
+
+![day 14](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/78a98bfb-3795-4b0a-b7ce-23cba81ab822)
+
+
+
+
+
 ## Learning the Basics
 
 ### 1. **Container**
@@ -174,11 +181,18 @@ class BioText extends StatelessWidget {
 }
 
 ```
+
+
+
 To check the code, save the changes in lib/main.dart.
-![Screenshot 2024-06-24 at 3 18 55 PM](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/40527483-fe3a-42c9-b78f-0a203195aa91)
 
 Visual Examples
 User Profile UI Example:
+
+
+![Screenshot 2024-06-24 at 3 18 55 PM](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/40527483-fe3a-42c9-b78f-0a203195aa91)
+
+
 
 
 
