@@ -89,7 +89,100 @@ This image shows everything we have implemented with these concepts:
 ![Screenshot 2024-06-25 at 2 08 32 PM](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/21bd3295-2754-48de-a991-8c081f464988)
 
 
+complete code of the image:
 
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Scrolling and Grid',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: ScrollingAndGrid(),
+    );
+  }
+}
+
+class ScrollingAndGrid extends StatefulWidget {
+  @override
+  _ScrollingAndGridState createState() => _ScrollingAndGridState();
+}
+
+class _ScrollingAndGridState extends State<ScrollingAndGrid> {
+  List<String> _items = [];
+
+  @override
+  void initState() {
+    super.initState();
+    for (int i = 0; i < 50; i++) {
+      _items.add('Item $i');
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Scrolling and Grid'),
+      ),
+      body: Column(
+        children: <Widget>[
+          SingleChildScrollView(
+            child: Column(
+              children: <Widget>[
+                Text('Item 1'),
+                Text('Item 2'),
+                Text('Item 3'),
+                // Add more items here
+              ],
+            ),
+          ),
+          Expanded(
+            child: ListView.builder(
+              itemCount: _items.length,
+              itemBuilder: (context, index) {
+                return ListTile(
+                  title: Text(_items[index]),
+                );
+              },
+            ),
+          ),
+          Expanded(
+            child: GridView.count(
+              crossAxisCount: 2,
+              children: <Widget>[
+                Container(color: Colors.red, child: Center(child: Text('Item 1'))),
+                Container(color: Colors.green, child: Center(child: Text('Item 2'))),
+                Container(color: Colors.blue, child: Center(child: Text('Item 3'))),
+              ],
+            ),
+          ),
+          Expanded(
+            child: GridView.builder(
+              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+              itemCount: 10,
+              itemBuilder: (context, index) {
+                return Container(
+                  color: Colors.blueAccent,
+                  child: Center(child: Text('Item $index')),
+                );
+              },
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+```
 
 Assets: Images and Fonts
 Adding Images
@@ -213,7 +306,6 @@ Example Code
 Create a new Flutter project and replace the code in lib/main.dart with the following:
 
 ```dart
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -224,46 +316,86 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: ImageGallery(),
+      title: 'To-Do List',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: ToDoList(),
     );
   }
 }
 
-class ImageGallery extends StatefulWidget {
+class ToDoList extends StatefulWidget {
   @override
-  _ImageGalleryState createState() => _ImageGalleryState();
+  _ToDoListState createState() => _ToDoListState();
 }
 
-class _ImageGalleryState extends State<ImageGallery> {
-  List<String> images = List.generate(10, (index) => 'assets/images/image_$index.png');
+class _ToDoListState extends State<ToDoList> {
+  List<String> _tasks = [];
+  List<bool> _taskStatus = [];
+
+  final _taskController = TextEditingController();
+
+  void _addTask() {
+    if (_taskController.text.isNotEmpty) {
+      setState(() {
+        _tasks.add(_taskController.text);
+        _taskStatus.add(false);
+        _taskController.clear();
+      });
+    }
+  }
+
+  void _toggleTaskStatus(int index) {
+    setState(() {
+      _taskStatus[index] = !_taskStatus[index];
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          'Image Gallery',
-          style: TextStyle(fontFamily: 'CustomFont'),
-        ),
+        title: Text('To-Do List'),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: GridView.builder(
-          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
-          itemCount: images.length,
-          itemBuilder: (context, index) {
-            return Card(
-              child: Image.asset(images[index], fit: BoxFit.cover),
-            );
-          },
-        ),
+      body: Column(
+        children: <Widget>[
+          TextField(
+            controller: _taskController,
+            decoration: InputDecoration(
+              labelText: 'Enter a task',
+              suffixIcon: IconButton(
+                icon: Icon(Icons.add),
+                onPressed: _addTask,
+              ),
+            ),
+          ),
+          Expanded(
+            child: ListView.builder(
+              itemCount: _tasks.length,
+              itemBuilder: (context, index) {
+                return ListTile(
+                  title: Text(_tasks[index]),
+                  trailing: Checkbox(
+                    value: _taskStatus[index],
+                    onChanged: (value) {
+                      _toggleTaskStatus(index);
+                    },
+                  ),
+                );
+              },
+            ),
+          ),
+        ],
       ),
     );
   }
 }
 ```
-Visual Examples
+
+![Screenshot 2024-06-25 at 2 14 50 PM](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/30bc2d64-313e-4f8a-b93e-13d0a7263919)
+
+
 
 
 By the end of this project, you should have a solid understanding of how to create more advanced UI layouts using Flutter's scrolling and grid widgets, handle assets like images and fonts, and implement stateful widgets. Happy coding!
