@@ -84,6 +84,13 @@ GridView.builder(
 )
 ```
 
+This image shows everything we have implemented with these concepts:
+
+![Screenshot 2024-06-25 at 2 08 32 PM](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/21bd3295-2754-48de-a991-8c081f464988)
+
+
+
+
 Assets: Images and Fonts
 Adding Images
 Add your image to the assets/images directory.
