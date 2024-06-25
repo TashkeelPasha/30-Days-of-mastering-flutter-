@@ -299,13 +299,9 @@ class _TapToShowMessageState extends State<TapToShowMessage> {
 
 
 
-Project - Image Gallery App
-Now, let's create a simple Image Gallery app using the widgets and concepts learned today.
+Project - ToDo App
 
-Project Features
-Display images in a scrollable grid layout.
-Use a custom font for the app title.
-Implement stateful widgets to manage gallery actions.
+
 Example Code
 
 Create a new Flutter project and replace the code in lib/main.dart with the following:
