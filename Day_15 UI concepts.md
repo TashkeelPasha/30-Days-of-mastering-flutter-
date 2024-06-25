@@ -124,40 +124,71 @@ Stateful widgets maintain state that might change during the lifetime of the wid
 Example of a Stateful Widget
 ```dart
 
-class CounterWidget extends StatefulWidget {
-  @override
-  _CounterWidgetState createState() => _CounterWidgetState();
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
 }
 
-class _CounterWidgetState extends State<CounterWidget> {
-  int _counter = 0;
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Tap to Show Message',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: TapToShowMessage(),
+    );
+  }
+}
 
-  void _incrementCounter() {
+class TapToShowMessage extends StatefulWidget {
+  @override
+  _TapToShowMessageState createState() => _TapToShowMessageState();
+}
+
+class _TapToShowMessageState extends State<TapToShowMessage> {
+  List<String> _items = [];
+  String _message = '';
+
+  @override
+  void initState() {
+    super.initState();
+    for (int i = 0; i < 50; i++) {
+      _items.add('Item $i');
+    }
+  }
+
+  void _showMessage(String item) {
     setState(() {
-      _counter++;
+      _message = 'You tapped on $item';
     });
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Counter')),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text('You have pressed the button this many times:'),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
-          ],
-        ),
+      appBar: AppBar(
+        title: Text('Tap to Show Message'),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
+      body: Column(
+        children: <Widget>[
+          Text(_message),
+          Expanded(
+            child: ListView.builder(
+              itemCount: _items.length,
+              itemBuilder: (context, index) {
+                return ListTile(
+                  title: Text(_items[index]),
+                  onTap: () {
+                    _showMessage(_items[index]);
+                  },
+                );
+              },
+            ),
+          ),
+        ],
       ),
     );
   }
