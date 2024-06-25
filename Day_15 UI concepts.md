@@ -294,6 +294,11 @@ class _TapToShowMessageState extends State<TapToShowMessage> {
   }
 }
 ```
+
+![Screenshot 2024-06-25 at 2 14 50 PM](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/115eca73-d51a-48bb-a9bd-b97b3557faf4)
+
+
+
 Project - Image Gallery App
 Now, let's create a simple Image Gallery app using the widgets and concepts learned today.
 
@@ -393,9 +398,9 @@ class _ToDoListState extends State<ToDoList> {
 }
 ```
 
-![Screenshot 2024-06-25 at 2 14 50 PM](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/30bc2d64-313e-4f8a-b93e-13d0a7263919)
 
 
+![Screenshot 2024-06-25 at 2 17 13 PM](https://github.com/TashkeelPasha/30-Days-of-mastering-flutter-/assets/152206485/e5743a3d-2616-4083-a202-0c9267ce196f)
 
 
 By the end of this project, you should have a solid understanding of how to create more advanced UI layouts using Flutter's scrolling and grid widgets, handle assets like images and fonts, and implement stateful widgets. Happy coding!
