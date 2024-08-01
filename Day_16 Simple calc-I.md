@@ -9,6 +9,10 @@ Today, we will create the user interface (UI) for a simple calculator app using 
 ## Code Explanation
 In this section, we will walk through the code to create the UI of the calculator.
 
+<img width="1680" src="https://github.com/user-attachments/assets/84f9ef92-ba10-4ae4-aa32-b7d920dc6c6b">
+
+
+
 ## main.dart
 This file is the entry point of our Flutter application. It sets up the basic structure and directs to the home screen.
 ```dart
