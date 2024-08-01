@@ -183,18 +183,18 @@ class _HomeState extends State<Home> {
 ## Explanation
 ## main.dart:
 
-The main() function initializes the app by calling runApp(Calculator()).
-The Calculator class extends StatelessWidget and returns a MaterialApp widget with Home as the home screen.
+- The main() function initializes the app by calling runApp(Calculator()).
+- The Calculator class extends StatelessWidget and returns a MaterialApp widget with Home as the home screen.
 
 ## home.dart:
 
-The Home class extends StatefulWidget to manage the state of the user input and the result.
-The buttonList contains all the button labels for the calculator.
-The build() method returns a Scaffold widget with a column layout, containing the display and the buttons.
-The resultWidget() method returns a container with the user input and the result.
-The buttonWidget() method creates a grid view of buttons using GridView.builder.
-The button() method returns an InkWell widget to handle button taps and style the buttons.
-The getColor() and getBGcolor() methods determine the text and background colors of the buttons based on their labels.
-This concludes the UI part of our calculator app. Stay tuned for the next post where we will implement the logic behind the calculator.
+- The Home class extends StatefulWidget to manage the state of the user input and the result.
+- The buttonList contains all the button labels for the calculator.
+- The build() method returns a Scaffold widget with a column layout, containing the display and the buttons.
+- The resultWidget() method returns a container with the user input and the result.
+- The buttonWidget() method creates a grid view of buttons using GridView.builder.
+- The button() method returns an InkWell widget to handle button taps and style the buttons.
+- The getColor() and getBGcolor() methods determine the text and background colors of the buttons based on their labels.
+- This concludes the UI part of our calculator app. Stay tuned for the next post where we will implement the logic behind the calculator.
 
 #Flutter #Dart #Programming #SoftwareDevelopment #MobileDevelopment #TechJourney #Learning #Coding #FlutterDev #CalculatorApp
