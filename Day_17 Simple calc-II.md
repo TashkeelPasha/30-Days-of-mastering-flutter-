@@ -8,8 +8,12 @@ Today, we will implement the logic to make our Flutter calculator app functional
 
 
 ## Final result
+https://github.com/user-attachments/assets/ba64d7a2-da31-41fc-bf7c-616ae939685e
 
-![calculator](https://github.com/user-attachments/assets/ba64d7a2-da31-41fc-bf7c-616ae939685e)
+<video src='[your URL here](https://github.com/user-attachments/assets/ba64d7a2-da31-41fc-bf7c-616ae939685e
+)' width=180/>
+
+
 
 
 
