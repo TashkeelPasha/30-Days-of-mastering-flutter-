@@ -9,12 +9,15 @@ Today, we will implement the logic to make our Flutter calculator app functional
 
 ## Final result
 
-<video src='https://github.com/user-attachments/assets/ba64d7a2-da31-41fc-bf7c-616ae939685e
-' width=180/>
+
+
+https://github.com/user-attachments/assets/68116c19-5d8f-4f91-aff5-49921d807c09
 
 
 
 
+
+For code : https://github.com/TashkeelPasha/Calculator-Flutter
 
 ## Code Explanation
 In this section, we will walk through the code to implement the logic for the calculator.
